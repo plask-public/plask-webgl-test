@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  min-width: 520px;
+  height: 100vh;
+}
+
+#renderingCanvas {
+  width: calc((100vw - 4px));
+  height: calc((100vh - 20px - 4px));
+  border: 2px dotted gray;
+  margin: 2px;
+}
+
+.controls {
+  height: 20px;
+}
+
+input {
+  height: 100%;
+}
+
+button {
+  width: 60px;
+  height: 100%;
+}
